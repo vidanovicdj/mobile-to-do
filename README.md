@@ -14,4 +14,5 @@ Aplikacija omogućava korisnicima da:
 ## Pokretanje aplikacije
 
 1. Klonirati repozitorijum
-2. Instalirati zavisnosti
+2. Instalirati zavisnosti (npm install)
+3. Pokrenuti komandu npx expo start

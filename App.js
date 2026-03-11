@@ -46,7 +46,7 @@ export default function App() {
         behavior={Platform.OS === "ios" ? "padding" : undefined}
         style={styles.writeTaskWrapper}
       >
-        <TextInput style={styles.input} placeholder={'Write a task'} value={task} onChangeText={text => setTask(text)} />
+        <TextInput style={styles.input} placeholder={'Write a task...'} value={task} onChangeText={text => setTask(text)} />
 
         <TouchableOpacity onPress={()=>{handleAddTask()}}>
           <View style={styles.addWrapper}>

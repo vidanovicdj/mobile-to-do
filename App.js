@@ -24,6 +24,7 @@ export default function App() {
       {/* Today's Tasks */}
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Today's tasks</Text>
+        <Text style={styles.sectionDesc}>List your today's tasks here.</Text>
 
         <View style={styles.items}>
           {/* This is where the tasks will go */}
@@ -70,6 +71,10 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: 'bold'
+  },
+  sectionDesc: {
+    paddingTop: 5,
+    fontStyle: "italic"
   },
   items: {
     marginTop: 30
